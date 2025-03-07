@@ -1,29 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Кнопка</title>
+<title>Главные Сылки</title>
 <style>
-#myImage {
-  display: none; /* Сначала скрыто */
-  width: 300px;
-  height: auto;
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.product:hover {
+  background-color: #f0f0f0;
 }
 </style>
 </head>
 <body>
 
-<button id="myButton">Нажми меня</button>
-<img id="myImage" src="your_image.jpg" alt="Другое изображение">
+<h1>Наш ассортимент</h1>
 
-<script>
-const button = document.getElementById('myButton');
-const image = document.getElementById('myImage');
+<div class="product" onclick="window.location.href='https://t.me/caseklikerrazdacha'">
+  <h2>Канал Разраба</h2>
+  <p>Test1</p>
+</div>
 
-button.addEventListener('click', () => {
-  image.style.display = 'block'; // Показать изображение
-  button.style.display = 'none'; // Скрыть кнопку (необязательно)
-});
-</script>
+<div class="product" onclick="window.location.href='https://www.example.com/product2'">
+  <h2>Товар 2</h2>
+  <p>Описание товара 2</p>
+</div>
+
+<div class="product" onclick="window.location.href='https://www.example.com/product3'">
+  <h2>Товар 3</h2>
+  <p>Описание товара 3</p>
+</div>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ассортимент товаров</title>
+<style>
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.product:hover {
+  background-color: #f0f0f0;
+}
+</style>
+</head>
+<body>
+
+<h1>Наш ассортимент</h1>
+
+<div class="product" onclick="window.location.href='https://www.example.com/product1'">
+  <h2>Товар 1</h2>
+  <p>Описание товара 1</p>
+</div>
+
+<div class="product" onclick="window.location.href='https://www.example.com/product2'">
+  <h2>Товар 2</h2>
+  <p>Описание товара 2</p>
+</div>
+
+<div class="product" onclick="window.location.href='https://www.example.com/product3'">
+  <h2>Товар 3</h2>
+  <p>Описание товара 3</p>
+</div>
+
+</body>
+</html>
+
